@@ -1,0 +1,25 @@
+{
+  "name": "jwt-tokens",
+  "version": "1.0.0",
+  "description": "JWT-TOKENS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server" : "nodemon app.js",
+    "build" : "node app.js"
+  },
+  "author": "prashanth",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
